@@ -1,6 +1,6 @@
 // Question 1//
 
-  var number = 15
+var number = 15
 var number2 = 16
 
 console.log (number + number2)
@@ -19,11 +19,7 @@ var beer = {
   english:"newcsatle",
   german:"heineken",
   dutch:"stella artois",
-    brews: [
-      "ipa",
-      "pilsner",
-      "light",
-      "draught"]
+  brews: ["ipa","pilsner","light","draught"]
 }
 
 console.log(beer);
@@ -41,50 +37,49 @@ var numb = 15
   }
 
 // Question 4//
-
-    var numb = 150
-      if(numb<100){
-        alert("This is less than 100")
-
-      } else {
-        alert("this is greaters than 100")
-      }
+var numb = 150
+  if(numb<100){
+    alert("This is less than 100")
+  }
+  else {
+    alert("this is greaters than 100")
+  }
 
 // Question 5//
 var phrase = prompt ("This is a phrase")
-
-  if
-  (phrase == "this is a phrase"){
-alert("thisi s right")
+  if(phrase == "this is a phrase"){
+      alert("this is right")
 }
-  else{
+  else {
     alert("you fkd up")
   }
 
 
 // Question 5//
 var chooseName= prompt("Enter A Name")
-function someName(name){
-
-  return(name);
+  function someName(name){
+    return(name);
 }
-alert(someName(chooseName))
+  alert(someName(chooseName))
 
 // // Question 7//
 function vinnie(){
+  }
+  vinnie();
   console.log("Hey")
-}
-vinnie();
 
 // QUestion 8//
-function doorPrize(numberofdoor){
-  if(doorPrize == 1){
-    alert("Congrats")
-  } else if (doorPrize == 2){
-    alert("you suck")
-  }  else if (doorPrize == 3){
-      alert("yay")
-  } else {
-      alert("try again no prize")
-    }
-  }
+function doorPrize(doorNumber) {
+ if(doorNumber == 1) {
+    alert("YOU WIN 2MILLION DOLLHAIRS!!")
+ }
+ else if(doorNumber == 2) {
+    alert("YOU WIN A DREAMCAST MEMORY CARD!")
+ }
+ else if(doorNumber == 3) {
+    alert("YOU WIN A VHS COPY OF DISNEY'S ALADIN!")
+ }
+ else {
+   alert("Wow theres 3 d1oors bruh")
+ }
+}
